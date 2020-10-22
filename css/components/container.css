@@ -1,0 +1,128 @@
+body {
+  background: #2a2a2a;
+}
+
+.container {
+	width: 700px;
+	margin: 0px auto;
+  align-content: center;
+  color: white;
+}
+
+.div-center {
+    position: center;
+    margin: 20px 80px;
+    margin: 20px auto;
+    background: white;
+    padding: 40px;
+    border-top: 1px rgba(0,0,0,0.1);
+    box-shadow: 0PX 10px 20px rgb(0,0,0,0.9);
+    border-radius: 6px;
+    text-align: center;
+    justify-content: space-around;
+    display: inline-block;
+    width: 600px;
+    background: #525252;
+}
+
+#social-media-links {
+  list-style: none;
+  padding-left: 0px;}
+#social-media-links li {
+  display: inline;
+  padding: 15px;
+  font-size: 60px;}
+#social-media {
+  padding: 0px auto;
+}
+.icon-link {
+  color: white;
+}
+
+.team-photo {
+  width: 100px;
+  height: 100px;
+  padding: 0px 20px;
+  border-radius: 100px
+}
+#team-members {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-grow: 1;
+  text-align: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+.team-members p {
+  width: 120px;
+  margin: 0px auto;
+}
+.team-members h2 {
+  margin: 20px auto;
+  text-align: center;
+}
+.presentation {
+  display: flex;
+  flex-wrap: wrap;
+}
+#presentation-elements {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+  font-size: 18px;
+}
+#presentation-elements h1 {
+  margin: 0px auto;
+}
+.presentation-element {
+  padding: 0px 20px;
+}
+#presentation-media {
+  flex-grow: 1;
+  margin: 10px;
+  display: flex;
+}
+
+{}
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+  .div-center {
+    margin: 40px 40px;
+    width: 600px;
+  }
+@media (max-width: 720px) {
+  .container {
+  width: 600px
+  }
+  .div-center {
+    margin: 40px 40px;
+    width: 550px;
+  }
+   .div-center p, img {
+    font-size: 15px;
+    width: 250px;
+  }
+  /* .team-photo {
+  width: 60px;
+  height: 60px;
+  padding: 0px 10px;
+  border-radius: 30px
+  } */
+@media (max-width: 550px) {
+  .container {
+  width: 400px;
+  }
+  .div-center {
+    margin: 40px 10px;
+    width: 380px;
+  }
+  .div-center p, img {
+    font-size: 12px;
+    width: 150px;
+  }
